@@ -1,2 +1,3 @@
-railsclass Restaurant < ApplicationRecord
-
+class Restaurant < ApplicationRecord
+  has_many :review
+end

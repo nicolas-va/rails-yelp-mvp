@@ -1,0 +1,10 @@
+Restaurant List
+<br>
+<% @restaurants.each do |restaurant| %>
+<%= restaurant.name %>
+<%= restaurant.address %>
+<%= restaurant.phone_number %>
+<%= restaurant.category %>
+<br>
+<% end %>
+<%= link_to 'New Restaurant', new_restaurant_path  %>
