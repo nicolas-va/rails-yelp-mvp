@@ -1,2 +1,2 @@
-class Restaurant < ApplicationRecord
-end
+railsclass Restaurant < ApplicationRecord
+
